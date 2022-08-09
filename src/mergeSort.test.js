@@ -1,4 +1,4 @@
-const mergeSort = require('./mergeSort')
+const mergeSort = require('./mergeSort.js')
 
 test("First test", () => {
     expect(mergeSort('hello')).toEqual('hello')
